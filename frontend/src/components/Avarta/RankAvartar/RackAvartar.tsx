@@ -26,9 +26,7 @@ function RankAvartar({ profileSrc, point }: RankAvartarProps) {
   };
 
   const loadImage = (imageName: string) => {
-    import(`../../../assets/image/heart/${imageName}`).then((image) => {
-      setRankImg(image.default);
-    });
+    setRankImg(`../../../assets/image/heart/${imageName}`);
   };
 
   useEffect(() => {

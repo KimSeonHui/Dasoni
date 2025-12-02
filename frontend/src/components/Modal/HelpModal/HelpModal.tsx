@@ -1,9 +1,8 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React from 'react';
 import '../Modal.css';
 import './HelpModal.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper';
-// import SwiperCore from 'swiper';
+import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';

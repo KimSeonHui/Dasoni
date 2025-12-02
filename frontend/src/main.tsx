@@ -8,19 +8,16 @@ import './index.css';
 import setAuthorizationToken from './utils/setAuthorizationToken';
 import { PersistGate } from 'redux-persist/integration/react';
 
-const container = document.getElementById('root')!;
-const root = createRoot(container);
-
 setAuthorizationToken(localStorage.getItem('jwtToken'));
 
-root.render(
-  // <React.StrictMode>
+console.log('main.tsx');
+
+createRoot(document.getElementById('root') as HTMLElement).render(
   <Provider store={store}>
     <PersistGate persistor={persistor}>
       <App />
     </PersistGate>
   </Provider>,
-  // </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function

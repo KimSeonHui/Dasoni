@@ -24,8 +24,7 @@ import SkeletonElement from '../../components/SkeletonElement/SkeletonElement';
 import SkeletonMainPage from './SkeletonMainPage';
 
 // 서버 주소를 환경에 따라 설정
-const APPLICATION_SERVER_URL =
-  process.env.NODE_ENV === 'production' ? '' : 'https://demos.openvidu.io/';
+const APPLICATION_SERVER_URL = import.meta.env.PROD ? '' : 'https://demos.openvidu.io/';
 
 function MainPage() {
   // 미팅 대기방 리스트
