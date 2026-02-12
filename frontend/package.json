@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@reduxjs/toolkit": "^2.10.1",
+    "@reduxjs/toolkit": "^2.11.2",
     "@stomp/stompjs": "^7.2.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
@@ -12,7 +12,7 @@
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
     "@types/redux-persist": "^4.3.1",
-    "axios": "^1.13.2",
+    "axios": "^1.13.5",
     "event-source-polyfill": "^1.0.31",
     "firebase": "^12.5.0",
     "http-proxy-middleware": "^3.0.5",
